@@ -90,6 +90,8 @@ class RunReportRequest extends \Google\Collection
   public function setCurrencyCode($currencyCode)
   {
     $this->currencyCode = $currencyCode;
+    
+    return $this;
   }
   /**
    * @return string
@@ -104,6 +106,8 @@ class RunReportRequest extends \Google\Collection
   public function setDateRanges($dateRanges)
   {
     $this->dateRanges = $dateRanges;
+    
+    return $this;
   }
   /**
    * @return DateRange[]
@@ -118,6 +122,8 @@ class RunReportRequest extends \Google\Collection
   public function setDimensionFilter(FilterExpression $dimensionFilter)
   {
     $this->dimensionFilter = $dimensionFilter;
+    
+    return $this;
   }
   /**
    * @return FilterExpression
@@ -132,6 +138,8 @@ class RunReportRequest extends \Google\Collection
   public function setDimensions($dimensions)
   {
     $this->dimensions = $dimensions;
+    
+    return $this;
   }
   /**
    * @return Dimension[]
@@ -202,6 +210,8 @@ class RunReportRequest extends \Google\Collection
   public function setMetrics($metrics)
   {
     $this->metrics = $metrics;
+    
+    return $this;
   }
   /**
    * @return Metric[]
@@ -216,6 +226,8 @@ class RunReportRequest extends \Google\Collection
   public function setOffset($offset)
   {
     $this->offset = $offset;
+    
+    return $this;
   }
   /**
    * @return string
@@ -230,6 +242,8 @@ class RunReportRequest extends \Google\Collection
   public function setOrderBys($orderBys)
   {
     $this->orderBys = $orderBys;
+    
+    return $this;
   }
   /**
    * @return OrderBy[]
@@ -244,6 +258,8 @@ class RunReportRequest extends \Google\Collection
   public function setProperty($property)
   {
     $this->property = $property;
+    
+    return $this;
   }
   /**
    * @return string
@@ -258,6 +274,8 @@ class RunReportRequest extends \Google\Collection
   public function setReturnPropertyQuota($returnPropertyQuota)
   {
     $this->returnPropertyQuota = $returnPropertyQuota;
+    
+    return $this;
   }
   /**
    * @return bool
