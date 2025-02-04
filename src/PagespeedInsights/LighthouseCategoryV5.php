@@ -100,14 +100,14 @@ class LighthouseCategoryV5 extends \Google\Collection
     return $this->manualDescription;
   }
   /**
-   * @param array
+   * @param float
    */
   public function setScore($score)
   {
     $this->score = $score;
   }
   /**
-   * @return array
+   * @return float
    */
   public function getScore()
   {
